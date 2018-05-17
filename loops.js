@@ -8,5 +8,6 @@ function forLoop(array) {
       n[i] = `I am ${i} strange loops.`
     }
   }
-  return array = [array, ...n]
+  array = [array, ...n]
+  return array
 }
