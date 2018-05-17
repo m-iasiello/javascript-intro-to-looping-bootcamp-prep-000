@@ -1,5 +1,5 @@
 function forLoop(array) {
-  n = length.array
+  n = length.array-1
   for(i = 0; i<25; i++){
     if(i===1) { 
       array[n+i] = "I am 1 strange loop."
